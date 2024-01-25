@@ -1,0 +1,124 @@
+* {
+  color: #1b1c21;
+}
+body {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  box-sizing: border-box;
+}
+.menu {
+  box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2),
+    -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  padding-top: 30px;
+  box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2),
+    -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+  overflow-y: auto;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+img:hover {
+  overflow: hidden;
+  transform: scale(0.8);
+  transition: 0.9s ease;
+}
+
+.icons__img--b:hover {
+  transform: rotate(5deg);
+}
+.menus {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  margin-bottom: auto;
+}
+
+.menu__head {
+  display: flex;
+  gap: 7%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.menu__head-a {
+  color: #7e7e82;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.menu__a {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.menu__head-a:hover {
+  color: #e7a60e;
+}
+.menu__a:hover {
+  color: #7e7e82;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+  justify-content: flex-start;
+}
+.footer__icons {
+  display: flex;
+  gap: 9%;
+}
+.footer__icons > a > img:hover {
+  color: #7e7e82;
+}
+
+.footer__conatct--phone {
+  font-size: 25px;
+}
+
+.footer__conatct--phone:hover,
+.footer__conatct--mail:hover {
+  text-shadow: 0 0 20px rgba(33, 33, 33, 5);
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 70px;
+  padding-left: 20px;
+}
+
+.button__1 {
+  color: #7e7e82;
+}
+.button__1:hover {
+  color: #0909eb;
+  text-shadow: 0 0 20px rgba(33, 33, 33, 5);
+}
+.button__2:hover,
+.button__3:hover {
+  color: #09eb14;
+  text-shadow: 0 0 20px rgba(33, 33, 33, 5);
+}
+button {
+  background-color: #fff;
+  border: #fff;
+}
